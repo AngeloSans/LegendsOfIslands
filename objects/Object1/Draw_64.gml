@@ -1,5 +1,5 @@
 draw_set_font(FonteMenu);
-draw_set_color(c_white);
+draw_set_color(c_yellow);
 
 var dist = 55;
 var gui_largura = display_get_gui_width();
