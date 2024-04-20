@@ -1,5 +1,5 @@
 draw_set_font(FonteMenu);
-draw_set_color(c_yellow);
+draw_set_color(c_white);
 
 var dist = 55;
 var gui_largura = display_get_gui_width();
@@ -13,7 +13,7 @@ for(var i=0;i<op_max;i++){
 	draw_text(x1,y1 + (dist*i),opcoes[i]);
 	
 	if(index == i){
-	draw_set_color(c_red);
+	draw_set_color(c_purple);
 }else{
 	draw_set_color(c_white);
 }

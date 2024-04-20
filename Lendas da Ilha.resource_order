@@ -1,4 +1,19 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"Font2","order":1,"path":"fonts/Font2/Font2.yy",},
+    {"name":"Botaoa","order":2,"path":"objects/Botaoa/Botaoa.yy",},
+    {"name":"Botaob","order":3,"path":"objects/Botaob/Botaob.yy",},
+    {"name":"ButtonBaixo","order":7,"path":"objects/ButtonBaixo/ButtonBaixo.yy",},
+    {"name":"ButtonCima","order":4,"path":"objects/ButtonCima/ButtonCima.yy",},
+    {"name":"ButtonController","order":1,"path":"objects/ButtonController/ButtonController.yy",},
+    {"name":"ButtonDireita","order":6,"path":"objects/ButtonDireita/ButtonDireita.yy",},
+    {"name":"ButtonEsquerda","order":5,"path":"objects/ButtonEsquerda/ButtonEsquerda.yy",},
+    {"name":"bgmenu","order":2,"path":"sprites/bgmenu/bgmenu.yy",},
+    {"name":"BotaoA","order":3,"path":"sprites/BotaoA/BotaoA.yy",},
+    {"name":"BotaoB","order":4,"path":"sprites/BotaoB/BotaoB.yy",},
+    {"name":"ButtonControll","order":5,"path":"sprites/ButtonControll/ButtonControll.yy",},
+    {"name":"ButtonControll2","order":6,"path":"sprites/ButtonControll2/ButtonControll2.yy",},
+    {"name":"buttoncontroller","order":1,"path":"sprites/buttoncontroller/buttoncontroller.yy",},
+  ],
 }
