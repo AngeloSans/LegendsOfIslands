@@ -1,55 +1,72 @@
 draw_set_font(FonteMenu);
 draw_set_color(c_white);
 
-var distText = 100;
-
+var dist = 150;
 var gui_largura = display_get_gui_width();
 var gui_altura = display_get_gui_height();
-var x1_text = gui_largura/3;
-var y1_text = gui_altura/3;
+var x1 = gui_largura / 2.7;
+var y1 = gui_altura / 2.7;
 
-draw_set_halign(fa_left);
-
-for(var i=0;i<opc_max;i++){
-	draw_set_halign(fa_right);
-	draw_set_valign(fa_left);
-	draw_text(x1_text,y1_text + (distText*i),opcoes_config[i]);
-	
-}
-
-
-//opcoes do text
-draw_set_font(FonteMenu);
-draw_set_color(c_white);
-
-// Ajuste a distância horizontal entre os elementos do vetor
-var dist = 150;
-
-var x1 = gui_largura / 1.5;
-var y1 = gui_altura / 3;
-
-// Define o alinhamento horizontal para a esquerda
-draw_set_halign(fa_left);
-
-for (var j = 0; j < array_length(config_text); j++) {
-    // Define o alinhamento vertical para o topo
-    draw_set_valign(fa_top);
-
-    // Calcula a posição horizontal com base no índice do vetor
-    var x_calcul = x1 + (dist * j);
-
-    // Desenha o texto alinhado
-    draw_text(x_calcul, y1, config_text[j]);
+for (var i = 0; i < opc_max; i++) {
+    draw_set_halign(fa_center);
+    draw_set_valign(fa_center);
+    draw_text(x1, y1 + (dist * i), opcoes_config[i]);
 
     // Define a cor do texto com base no índice
-    if (index == j) {
+    if (index == i) {
         draw_set_color(c_purple);
     } else {
         draw_set_color(c_white);
     }
 
-    // Desenha o texto alinhado
-    draw_text(x_calcul, y1, config_text[j]);
+    draw_text(x1, y1 + (dist * i), opcoes_config[i]);
 }
+
+
+
+draw_set_font(FonteMenu);
+draw_set_color(c_white);
+
+
+var dist_Textop = 150;
+var x1_optext = gui_largura / 1.5;
+var y1_textop = gui_altura / 3;
+
+draw_set_halign(fa_left);
+
+for (var j = 0; j < array_length(config_text); j++) {
+	draw_set_valign(fa_top); 
+	var x_calcul = x1_optext + (dist_Textop * j);
+	draw_text(x_calcul, y1_textop, config_text[j]);
+    
+}
+
+draw_set_font(FonteMenu);
+draw_set_color(c_white);
+
+
+var dist_Somop = 150;
+var x1_opSom = gui_largura / 1.5;
+var y1_opSom = gui_altura / 1.9;
+
+draw_set_halign(fa_left);
+
+for (var s = 0; s < array_length(config_text); s++) {
+	draw_set_valign(fa_top); 
+	var x_calculSom = x1_opSom + (dist_Somop * s);
+	draw_text(x_calculSom, y1_opSom, config_som[s]);
+    
+}
+
+
+
+
+// Cria o texto "Opções"
+texto = "Opções";
+draw_set_color(c_black);
+var x1_texto = gui_largura / 5.5;
+var y1_texto = gui_altura / 8;
+// Desenha o texto na tela
+draw_text(x1_texto, y1_texto, texto);
 
 draw_set_font(-1);
