@@ -1,4 +1,10 @@
 opcoes = ["Novo Jogo", "Continuar", "Opcoes","Sair"];
 index = 0;
 op_max = array_length(opcoes);
-background_music = audio_play_sound(musicadefundolendasdailha, 1, true);
+
+var musicaTocando = true;
+
+// Verifique o estado da música antes de tocar
+
+
+// Pare a música quando o jogador sai da sala

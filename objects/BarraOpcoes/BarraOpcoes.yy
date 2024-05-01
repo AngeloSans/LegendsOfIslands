@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"barraOpcoes",
-    "path":"sprites/barraOpcoes/barraOpcoes.yy",
+    "name":"barraopcoes__2_",
+    "path":"sprites/barraopcoes__2_/barraopcoes__2_.yy",
   },
   "spriteMaskId":null,
   "visible":true,

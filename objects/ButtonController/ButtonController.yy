@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"buttoncontroller",
-    "path":"sprites/buttoncontroller/buttoncontroller.yy",
+    "name":"ControleCompleto",
+    "path":"sprites/ControleCompleto/ControleCompleto.yy",
   },
   "spriteMaskId":null,
   "visible":true,
