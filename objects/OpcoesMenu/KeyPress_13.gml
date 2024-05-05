@@ -4,8 +4,9 @@ if(index == 2){
 	
 }
 
-if (index == 1) {
-    audio_stop_sound(musicadefundolendasdailha);
+if(index == 1){
+	obj_sound_manager.music = false
+	audio_stop_all();
 }
 
 if keyboard_check_pressed(vk_anykey) {

@@ -1,1 +1,1 @@
-room_goto(AnaJansenDialog)
+room_goto(AnajansenHistory)
