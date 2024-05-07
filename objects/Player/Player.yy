@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Ground",
-  "eventList":[],
+  "%Name":"Player",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Ground",
+  "name":"Player",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -26,10 +29,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"terreno2",
-    "path":"sprites/terreno2/terreno2.yy",
+    "name":"Sprite42",
+    "path":"sprites/Sprite42/Sprite42.yy",
   },
   "spriteMaskId":null,
   "visible":true,

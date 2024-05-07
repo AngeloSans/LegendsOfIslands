@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Ground",
+  "%Name":"Obj_ground",
   "eventList":[],
   "managed":true,
-  "name":"Ground",
+  "name":"Obj_ground",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -26,11 +26,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"terreno2",
-    "path":"sprites/terreno2/terreno2.yy",
+  "solid":false,
+  "spriteId":null,
+  "spriteMaskId":{
+    "name":"Terrain__16x16_",
+    "path":"sprites/Terrain__16x16_/Terrain__16x16_.yy",
   },
-  "spriteMaskId":null,
   "visible":true,
 }

@@ -1,5 +1,8 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"grupo1","order":15,"path":"folders/Sprites/grupo1.yy",},
+    {"name":"Tiles","order":14,"path":"folders/Sprites/Tiles.yy",},
+  ],
   "ResourceOrderSettings":[
     {"name":"FonteDeTexto","order":2,"path":"fonts/FonteDeTexto/FonteDeTexto.yy",},
     {"name":"FontTexto","order":1,"path":"fonts/FontTexto/FontTexto.yy",},
@@ -17,6 +20,7 @@
     {"name":"ButtonDireita","order":6,"path":"objects/ButtonDireita/ButtonDireita.yy",},
     {"name":"ButtonEsquerda","order":5,"path":"objects/ButtonEsquerda/ButtonEsquerda.yy",},
     {"name":"Ground","order":20,"path":"objects/Ground/Ground.yy",},
+    {"name":"Obj_ground","order":25,"path":"objects/Obj_ground/Obj_ground.yy",},
     {"name":"Obj_hsAna","order":23,"path":"objects/Obj_hsAna/Obj_hsAna.yy",},
     {"name":"Obj_save","order":22,"path":"objects/Obj_save/Obj_save.yy",},
     {"name":"obj_sound_manager","order":19,"path":"objects/obj_sound_manager/obj_sound_manager.yy",},
@@ -25,6 +29,7 @@
     {"name":"ObjTutorial","order":11,"path":"objects/ObjTutorial/ObjTutorial.yy",},
     {"name":"OlderMan","order":15,"path":"objects/OlderMan/OlderMan.yy",},
     {"name":"OpcoesMenu","order":8,"path":"objects/OpcoesMenu/OpcoesMenu.yy",},
+    {"name":"Player","order":24,"path":"objects/Player/Player.yy",},
     {"name":"SpeechBallon","order":16,"path":"objects/SpeechBallon/SpeechBallon.yy",},
     {"name":"AnaJansenDialog","order":4,"path":"rooms/AnaJansenDialog/AnaJansenDialog.yy",},
     {"name":"AnaJansenFaseOne","order":5,"path":"rooms/AnaJansenFaseOne/AnaJansenFaseOne.yy",},
@@ -70,6 +75,8 @@
     {"name":"skyNight","order":6,"path":"sprites/skyNight/skyNight.yy",},
     {"name":"speechballon","order":24,"path":"sprites/speechballon/speechballon.yy",},
     {"name":"Sprite38","order":11,"path":"sprites/Sprite38/Sprite38.yy",},
+    {"name":"terreno2","order":2,"path":"sprites/terreno2/terreno2.yy",},
     {"name":"testecapalendas","order":10,"path":"sprites/testecapalendas/testecapalendas.yy",},
+    {"name":"Terreno","order":1,"path":"tilesets/Terreno/Terreno.yy",},
   ],
 }
