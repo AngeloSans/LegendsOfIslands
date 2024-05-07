@@ -1,4 +1,4 @@
-move_speed = 1;
+move_speed = 2;
 jump_speed = 12;
 
 move_x = 0;

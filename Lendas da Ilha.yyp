@@ -62,6 +62,7 @@
     {"id":{"name":"Obj_hsAna","path":"objects/Obj_hsAna/Obj_hsAna.yy",},},
     {"id":{"name":"Obj_save","path":"objects/Obj_save/Obj_save.yy",},},
     {"id":{"name":"obj_sound_manager","path":"objects/obj_sound_manager/obj_sound_manager.yy",},},
+    {"id":{"name":"ObjCamera","path":"objects/ObjCamera/ObjCamera.yy",},},
     {"id":{"name":"ObjIntroducao","path":"objects/ObjIntroducao/ObjIntroducao.yy",},},
     {"id":{"name":"ObjMenu","path":"objects/ObjMenu/ObjMenu.yy",},},
     {"id":{"name":"ObjPause","path":"objects/ObjPause/ObjPause.yy",},},
