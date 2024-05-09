@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"grupo1","order":15,"path":"folders/Sprites/grupo1.yy",},
+    {"name":"Monsters","order":16,"path":"folders/Sprites/Monsters.yy",},
     {"name":"Tiles","order":14,"path":"folders/Sprites/Tiles.yy",},
   ],
   "ResourceOrderSettings":[
@@ -25,6 +26,7 @@
     {"name":"Obj_save","order":22,"path":"objects/Obj_save/Obj_save.yy",},
     {"name":"obj_sound_manager","order":19,"path":"objects/obj_sound_manager/obj_sound_manager.yy",},
     {"name":"ObjCamera","order":26,"path":"objects/ObjCamera/ObjCamera.yy",},
+    {"name":"GhostEnemy","order":27,"path":"objects/GhostEnemy/GhostEnemy.yy",},
     {"name":"ObjIntroducao","order":12,"path":"objects/ObjIntroducao/ObjIntroducao.yy",},
     {"name":"ObjPause","order":21,"path":"objects/ObjPause/ObjPause.yy",},
     {"name":"ObjTutorial","order":11,"path":"objects/ObjTutorial/ObjTutorial.yy",},
@@ -46,6 +48,7 @@
     {"name":"_5","order":5,"path":"sprites/_5/_5.yy",},
     {"name":"AnaJansenHisotry","order":13,"path":"sprites/AnaJansenHisotry/AnaJansenHisotry.yy",},
     {"name":"AnaJansenIcon","order":25,"path":"sprites/AnaJansenIcon/AnaJansenIcon.yy",},
+    {"name":"Atacar","order":2,"path":"sprites/Atacar/Atacar.yy",},
     {"name":"barraopcoes__2_","order":22,"path":"sprites/barraopcoes__2_/barraopcoes__2_.yy",},
     {"name":"barraOpcoes","order":11,"path":"sprites/barraOpcoes/barraOpcoes.yy",},
     {"name":"bgmenu","order":2,"path":"sprites/bgmenu/bgmenu.yy",},
@@ -71,6 +74,7 @@
     {"name":"ground","order":7,"path":"sprites/ground/ground.yy",},
     {"name":"Imagem_do_WhatsApp_de_2024_04_20___s__14_18_1","order":7,"path":"sprites/Imagem_do_WhatsApp_de_2024_04_20___s__14_18_1/Imagem_do_WhatsApp_de_2024_04_20___s__14_18_1.yy",},
     {"name":"OlderManIcon","order":23,"path":"sprites/OlderManIcon/OlderManIcon.yy",},
+    {"name":"Parado","order":1,"path":"sprites/Parado/Parado.yy",},
     {"name":"Rectangle_6","order":15,"path":"sprites/Rectangle_6/Rectangle_6.yy",},
     {"name":"retanguloBranco","order":12,"path":"sprites/retanguloBranco/retanguloBranco.yy",},
     {"name":"skyNight","order":6,"path":"sprites/skyNight/skyNight.yy",},

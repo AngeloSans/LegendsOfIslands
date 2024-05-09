@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite42",
-    "path":"sprites/Sprite42/Sprite42.yy",
+    "name":"Parado",
+    "path":"sprites/Parado/Parado.yy",
   },
   "spriteMaskId":null,
   "visible":true,

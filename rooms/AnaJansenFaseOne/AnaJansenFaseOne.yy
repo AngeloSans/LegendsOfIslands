@@ -9,6 +9,7 @@
     {"name":"inst_713970C","path":"rooms/AnaJansenFaseOne/AnaJansenFaseOne.yy",},
     {"name":"inst_347A8CD","path":"rooms/AnaJansenFaseOne/AnaJansenFaseOne.yy",},
     {"name":"inst_1FD2E176","path":"rooms/AnaJansenFaseOne/AnaJansenFaseOne.yy",},
+    {"name":"inst_58C3FB5C","path":"rooms/AnaJansenFaseOne/AnaJansenFaseOne.yy",},
     {"name":"inst_4B9BCE6B","path":"rooms/AnaJansenFaseOne/AnaJansenFaseOne.yy",},
     {"name":"inst_1E9D10CA","path":"rooms/AnaJansenFaseOne/AnaJansenFaseOne.yy",},
     {"name":"inst_A8CCF86","path":"rooms/AnaJansenFaseOne/AnaJansenFaseOne.yy",},
@@ -108,6 +109,7 @@
         {"$GMRInstance":"","%Name":"inst_577611DD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_577611DD","objectId":{"name":"Ground","path":"objects/Ground/Ground.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1056.0,"y":704.0,},
         {"$GMRInstance":"","%Name":"inst_28B80693","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_28B80693","objectId":{"name":"Ground","path":"objects/Ground/Ground.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1088.0,"y":704.0,},
         {"$GMRInstance":"","%Name":"inst_713970C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_713970C","objectId":{"name":"ObjCamera","path":"objects/ObjCamera/ObjCamera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":608.0,},
+        {"$GMRInstance":"","%Name":"inst_58C3FB5C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_58C3FB5C","objectId":{"name":"GhostEnemy","path":"objects/GhostEnemy/GhostEnemy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":672.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_4","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_6A362BBF","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_6A362BBF","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"_5","path":"sprites/_5/_5.yy",},"x":64.0,"y":416.0,},
