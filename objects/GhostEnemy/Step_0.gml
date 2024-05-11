@@ -1,5 +1,5 @@
 // Evento Step do objeto inimigo (obj_enemy)
-
+if(global.pause)exit;
 // Obtenha a posição atual do jogador
 var player_x = Player.x;
 var player_y = Player.y;

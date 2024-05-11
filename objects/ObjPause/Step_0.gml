@@ -1,3 +1,3 @@
-if(keyboard_check_pressed(vk_space)){
+if(keyboard_check_pressed(vk_enter)){
 	global.pause = !global.pause;
 }	
