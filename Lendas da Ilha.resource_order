@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"grupo1","order":15,"path":"folders/Sprites/grupo1.yy",},
+    {"name":"LifeBarr","order":21,"path":"folders/Sprites/LifeBarr.yy",},
     {"name":"Monsters","order":16,"path":"folders/Sprites/Monsters.yy",},
     {"name":"Tiles","order":14,"path":"folders/Sprites/Tiles.yy",},
   ],
@@ -28,6 +29,7 @@
     {"name":"Obj_save","order":22,"path":"objects/Obj_save/Obj_save.yy",},
     {"name":"obj_sound_manager","order":19,"path":"objects/obj_sound_manager/obj_sound_manager.yy",},
     {"name":"ObjCamera","order":26,"path":"objects/ObjCamera/ObjCamera.yy",},
+    {"name":"ObjLife","order":29,"path":"objects/ObjLife/ObjLife.yy",},
     {"name":"ObjIntroducao","order":12,"path":"objects/ObjIntroducao/ObjIntroducao.yy",},
     {"name":"ObjPause","order":21,"path":"objects/ObjPause/ObjPause.yy",},
     {"name":"ObjTutorial","order":11,"path":"objects/ObjTutorial/ObjTutorial.yy",},
@@ -67,6 +69,7 @@
     {"name":"Component_8__1_","order":16,"path":"sprites/Component_8__1_/Component_8__1_.yy",},
     {"name":"Component_8","order":14,"path":"sprites/Component_8/Component_8.yy",},
     {"name":"ControleCompleto","order":18,"path":"sprites/ControleCompleto/ControleCompleto.yy",},
+    {"name":"Death","order":4,"path":"sprites/Death/Death.yy",},
     {"name":"finalcover__1_","order":9,"path":"sprites/finalcover__1_/finalcover__1_.yy",},
     {"name":"finalcover","order":8,"path":"sprites/finalcover/finalcover.yy",},
     {"name":"fundo_menuOP","order":13,"path":"sprites/fundo_menuOP/fundo_menuOP.yy",},
@@ -86,6 +89,7 @@
     {"name":"skyNight","order":6,"path":"sprites/skyNight/skyNight.yy",},
     {"name":"speechballon","order":24,"path":"sprites/speechballon/speechballon.yy",},
     {"name":"Sprite38","order":11,"path":"sprites/Sprite38/Sprite38.yy",},
+    {"name":"Sprite52","order":3,"path":"sprites/Sprite52/Sprite52.yy",},
     {"name":"terreno2","order":2,"path":"sprites/terreno2/terreno2.yy",},
     {"name":"testecapalendas","order":10,"path":"sprites/testecapalendas/testecapalendas.yy",},
     {"name":"Terreno","order":1,"path":"tilesets/Terreno/Terreno.yy",},
