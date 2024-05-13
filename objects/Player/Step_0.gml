@@ -1,4 +1,5 @@
 if(global.pause)exit;
+if(global.morte)exit;
 
 move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
 move_x *= move_speed;
@@ -62,4 +63,6 @@ if(global.vida < 1){
 	draw_set_alpha(.90);
 	draw_set_color(c_black);
 	draw_rectangle(0,0,gui_w,gui_h,false)
+	global.morte = true;
+	
 }	

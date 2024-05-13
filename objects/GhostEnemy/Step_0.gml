@@ -1,3 +1,4 @@
+if(global.morte)exit;
 // Evento Step do objeto inimigo (obj_enemy)
 if (!global.pause) {
     // Obtenha a posição atual do jogador
