@@ -1,5 +1,6 @@
-if(global.pause) exit;
-if(global.morte) exit;
+// Evento Step do Player
+if (global.pause) exit;
+if (global.morte) exit;
 
 move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
 move_x *= move_speed;
@@ -13,19 +14,17 @@ if (place_meeting(x, y + 2, Ground)) {
 
 move_and_collide(move_x, move_y, Ground);
 
-if (move_x != 0)
+if (move_x != 0) {
     image_xscale = sign(move_x);
+}
 
 if (keyboard_check(vk_right) || keyboard_check(vk_left)) {
-    // Verificar se está se movendo para a direita
     if (keyboard_check(vk_right)) {
         sprite_index = Correndo;
-        image_xscale = 1; // Garantir que o personagem esteja virado para a direita
-    }
-    // Verificar se está se movendo para a esquerda
-    else if (keyboard_check(vk_left)) {
+        image_xscale = 1;
+    } else if (keyboard_check(vk_left)) {
         sprite_index = Correndo;
-        image_xscale = -1; // Inverter a escala horizontal para que o personagem esteja virado para a esquerda
+        image_xscale = -1;
     }
 } else if (keyboard_check(ord("A"))) {
     sprite_index = Atacar;
@@ -33,35 +32,29 @@ if (keyboard_check(vk_right) || keyboard_check(vk_left)) {
     sprite_index = Parado;
 }
 
-// Atualizar o tempo de invulnerabilidade
 if (invulnerability_time > 0) {
     invulnerability_time -= 1;
 }
 
-// Aumentar a distância do ataque
 if (keyboard_check_pressed(ord("A"))) {
-    // Defina a área de ataque maior
-    var attack_range_x = 30; // Aumente conforme necessário para aumentar a largura do ataque
-    var attack_range_y = 32; // Aumente conforme necessário para aumentar a altura do ataque
-
-    // Verifique a colisão com o objeto inimigo dentro da área de ataque
+    var attack_range_x = 30;
+    var attack_range_y = 50;
     var enemy_inst;
     if (image_xscale == 1) {
-        // Ataque para a direita
         enemy_inst = collision_rectangle(x, y - attack_range_y / 2, x + attack_range_x, y + attack_range_y / 2, GhostEnemy, false, true);
     } else {
-        // Ataque para a esquerda
         enemy_inst = collision_rectangle(x - attack_range_x, y - attack_range_y / 2, x, y + attack_range_y / 2, GhostEnemy, false, true);
     }
 
     if (enemy_inst) {
-        // Reduza a vida do inimigo
         enemy_inst.life -= 1;
+        enemy_inst.blinking = true;
+        enemy_inst.blink_timer = enemy_inst.blink_duration;
 
-        // Verifique se a vida do inimigo é menor ou igual a zero
         if (enemy_inst.life <= 0) {
-            // Destrua o inimigo
             instance_destroy(enemy_inst);
+            global.inimigos_restantes -= 1; // Decrementa o contador de inimigos
+            show_debug_message("Inimigos restantes após destruição: " + string(global.inimigos_restantes)); // Mensagem de debug
         }
     }
 }
