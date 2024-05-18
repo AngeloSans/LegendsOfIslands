@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"GhostEnemy",
+  "%Name":"GhostEnemy3",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"GhostEnemy",
+  "name":"GhostEnemy3",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemies",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SpriteGhost",
-    "path":"sprites/SpriteGhost/SpriteGhost.yy",
+    "name":"SpriteGhost3",
+    "path":"sprites/SpriteGhost3/SpriteGhost3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

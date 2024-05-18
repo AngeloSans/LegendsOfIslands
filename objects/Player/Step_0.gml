@@ -1,6 +1,7 @@
 // Evento Step do Player
 if (global.pause) exit;
 if (global.morte) exit;
+if(global.inimigos_restantes <= 0) exit;
 
 move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
 move_x *= move_speed;
@@ -40,6 +41,8 @@ if (keyboard_check_pressed(ord("A"))) {
     var attack_range_x = 30;
     var attack_range_y = 50;
     var enemy_inst;
+
+    // Atacar GhostEnemy
     if (image_xscale == 1) {
         enemy_inst = collision_rectangle(x, y - attack_range_y / 2, x + attack_range_x, y + attack_range_y / 2, GhostEnemy, false, true);
     } else {
@@ -53,8 +56,46 @@ if (keyboard_check_pressed(ord("A"))) {
 
         if (enemy_inst.life <= 0) {
             instance_destroy(enemy_inst);
-            global.inimigos_restantes -= 1; // Decrementa o contador de inimigos
-            show_debug_message("Inimigos restantes após destruição: " + string(global.inimigos_restantes)); // Mensagem de debug
+            global.inimigos_restantes -= 1;
+            show_debug_message("Inimigos restantes após destruição: " + string(global.inimigos_restantes));
+        }
+    }
+
+    // Atacar GhostEnemy2
+    if (image_xscale == 1) {
+        enemy_inst = collision_rectangle(x, y - attack_range_y / 2, x + attack_range_x, y + attack_range_y / 2, GhostEnemy2, false, true);
+    } else {
+        enemy_inst = collision_rectangle(x - attack_range_x, y - attack_range_y / 2, x, y + attack_range_y / 2, GhostEnemy2, false, true);
+    }
+
+    if (enemy_inst) {
+        enemy_inst.life1 -= 1;
+        enemy_inst.blinking = true;
+        enemy_inst.blink_timer = enemy_inst.blink_duration;
+
+        if (enemy_inst.life1 <= 0) {
+            instance_destroy(enemy_inst);
+            global.inimigos_restantes -= 1;
+            show_debug_message("Inimigos restantes após destruição: " + string(global.inimigos_restantes));
+        }
+    }
+
+    // Atacar GhostEnemy3
+    if (image_xscale == 1) {
+        enemy_inst = collision_rectangle(x, y - attack_range_y / 2, x + attack_range_x, y + attack_range_y / 2, GhostEnemy3, false, true);
+    } else {
+        enemy_inst = collision_rectangle(x - attack_range_x, y - attack_range_y / 2, x, y + attack_range_y / 2, GhostEnemy3, false, true);
+    }
+
+    if (enemy_inst) {
+        enemy_inst.life2 -= 1;
+        enemy_inst.blinking = true;
+        enemy_inst.blink_timer = enemy_inst.blink_duration;
+
+        if (enemy_inst.life2 <= 0) {
+            instance_destroy(enemy_inst);
+            global.inimigos_restantes -= 1;
+            show_debug_message("Inimigos restantes após destruição: " + string(global.inimigos_restantes));
         }
     }
 }
