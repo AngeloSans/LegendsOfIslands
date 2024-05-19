@@ -6,6 +6,12 @@ global.morte = false;
 global.move_x = 0;
 global.move_y = 0;
 
+invulnerability_duration = 20;
+
+dash_duration = 10; // Duração do dash em steps
+dash_speed = 1; // Velocidade do dash
+dash_timer = 0; // Contador do dash
+is_dashing = false; // Estado de dash
 // Evento Create do Player
 show_debug_message("Player criado na sala: " + string(room));
 

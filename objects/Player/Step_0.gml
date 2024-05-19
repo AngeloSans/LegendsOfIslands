@@ -29,6 +29,7 @@ if (keyboard_check(vk_right) || keyboard_check(vk_left)) {
     }
 } else if (keyboard_check(ord("A"))) {
     sprite_index = Atacar;
+	
 } else {
     sprite_index = Parado;
 }
@@ -41,6 +42,7 @@ if (keyboard_check_pressed(ord("A"))) {
     var attack_range_x = 30;
     var attack_range_y = 50;
     var enemy_inst;
+	audio_play_sound(soundash, 1, false);
 
     // Atacar GhostEnemy
     if (image_xscale == 1) {

@@ -1,5 +1,19 @@
 draw_set_font(FontTexto);
-draw_text(10, 10, "Inimigos restantes: " + string(global.inimigos_restantes));
+
+// Coordenadas para a imagem e o texto
+var icon_x = 900;
+var icon_y = 60;
+var scale_factor = 0.2; // Fator de escala para reduzir o tamanho da imagem (0.5 significa reduzir pela metade)
+var icon_width = sprite_get_width(ghosticone) * scale_factor;
+var text_offset = icon_width + 10; // Deslocamento horizontal para o texto após a imagem (ajuste conforme necessário)
+var texto_x = icon_x + text_offset;
+var texto_y = icon_y;
+
+// Desenha a imagem reduzida
+draw_sprite_ext(ghosticone, 0, icon_x, icon_y, scale_factor, scale_factor, 0, c_white, 1);
+
+// Desenha o texto ao lado da imagem
+draw_text(texto_x, texto_y, "Inimigos restantes: " + string(global.inimigos_restantes));
 
 if (global.inimigos_restantes <= 0) {
     draw_sprite_stretched(WinGhost, 0, 0, 0, display_get_gui_width(), display_get_gui_height());
@@ -17,7 +31,7 @@ if (global.inimigos_restantes <= 0) {
     // Desenha a segunda linha de texto
     draw_text(x_1, y_2 + 20, text2);
     
-    if (keyboard_check(ord("B"))) {
+    if (keyboard_check(ord("A"))) {
         room_goto(AnaJansenFase);
     }
 }
