@@ -1,22 +1,22 @@
 // Evento Step do Player
 if (global.pause) exit;
 if (global.morte) exit;
-if(global.inimigos_restantes <= 0) exit;
+//if(global.inimigos_restantes <= 0) exit;
 
-move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
-move_x *= move_speed;
+global.move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
+global.move_x *= global.move_speed;
 
-if (place_meeting(x, y + 2, Ground)) {
-    move_y = 0;
-    if (keyboard_check(vk_space)) move_y = -jump_speed;
-} else if (move_y < 10) {
-    move_y += 1;
+if (place_meeting(x, y + 2, AnaTerreno)) {
+    global.move_y = 0;
+    if (keyboard_check(vk_space)) global.move_y = -global.jump_speed;
+} else if (global.move_y < 10) {
+    global.move_y += 1;
 }
 
-move_and_collide(move_x, move_y, Ground);
+move_and_collide(global.move_x, global.move_y, AnaTerreno);
 
-if (move_x != 0) {
-    image_xscale = sign(move_x);
+if (global.move_x != 0) {
+    image_xscale = sign(global.move_x);
 }
 
 if (keyboard_check(vk_right) || keyboard_check(vk_left)) {

@@ -11,8 +11,8 @@
   "name":"AnajansenDialog",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Anajanse",
+    "path":"folders/Objetos/Anajanse.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -6,8 +6,8 @@
   "name":"BotaoAexample",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Controls",
+    "path":"folders/Objetos/Controls.yy",
   },
   "parentObjectId":null,
   "persistent":false,

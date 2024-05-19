@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"SpeechBallon",
-  "eventList":[],
+  "%Name":"AnajansenBoos",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"SpeechBallon",
+  "name":"AnajansenBoos",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Anajanse",
+    "path":"folders/Objetos/Anajanse.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,11 +28,14 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"speechballon",
-    "path":"sprites/speechballon/speechballon.yy",
+    "name":"SpriteAnaJansen",
+    "path":"sprites/SpriteAnaJansen/SpriteAnaJansen.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"SpriteAnaJansen",
+    "path":"sprites/SpriteAnaJansen/SpriteAnaJansen.yy",
+  },
   "visible":true,
 }
