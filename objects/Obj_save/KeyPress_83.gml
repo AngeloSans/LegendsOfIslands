@@ -9,11 +9,13 @@ if (file_exists(global.save_path)) {
 // Abre o arquivo de salvamento para escrita
 ini_open(global.save_path);
 
+var sala_nome = room_get_name(room);
+show_message("Salvando na sala: " + sala_nome);
+ini_write_string("jogador", "sala_atual", sala_nome);
+
 // Escreve as posições do jogador no arquivo de salvamento
 ini_write_real("jogador", "x_atual", Player.x);
 ini_write_real("jogador", "y_atual", Player.y);
-
-ini_write_string("jogador", "sala_atual", room_get_name(room));
 
 // Fecha o arquivo de salvamento
 ini_close();

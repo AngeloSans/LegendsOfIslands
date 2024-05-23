@@ -1,4 +1,4 @@
-opcoes_config = ["Velocidade de Texto", "Som", "Voltar"];
+opcoes_config = ["Velocidade de Texto", "Música", "Voltar"];
 config_text = ["Normal", "Rapido"];
 config_som = ["Ligado", "Desligado"];
 index = 0;

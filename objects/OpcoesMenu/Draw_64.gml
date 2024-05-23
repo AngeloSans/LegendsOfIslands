@@ -14,9 +14,9 @@ for (var i = 0; i < opc_max; i++) {
 
     // Define a cor do texto com base no índice
     if (index == i) {
-        draw_set_color(c_purple);
-    } else {
         draw_set_color(c_white);
+    } else {
+        draw_set_color(#8E8E8E);
     }
 
     draw_text(x1, y1 + (dist * i), opcoes_config[i]);
@@ -25,7 +25,7 @@ for (var i = 0; i < opc_max; i++) {
 
 
 draw_set_font(FontTexto);
-draw_set_color(c_white);
+draw_set_color(#8E8E8E);
 
 
 var dist_Textop = 150;
@@ -42,7 +42,7 @@ for (var j = 0; j < array_length(config_text); j++) {
 }
 
 draw_set_font(FontTexto);
-draw_set_color(c_white);
+draw_set_color(#8E8E8E);
 
 
 var dist_Somop = 150;
@@ -63,7 +63,7 @@ for (var s = 0; s < array_length(config_text); s++) {
 
 // Cria o texto "Opções"
 texto = "Opções";
-draw_set_color(c_white);
+draw_set_color(#8E8E8E);
 var x1_texto = gui_largura / 5.5;
 var y1_texto = gui_altura / 6.5;
 // Desenha o texto na tela
