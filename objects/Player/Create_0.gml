@@ -6,6 +6,16 @@ global.morte = false;
 global.move_x = 0;
 global.move_y = 0;
 
+//superpower
+// Evento Create do Player
+superpower_active = false;
+superpower_timer = 0;
+blink_timer = 0;
+
+//mudar no ataque
+alpha = 0;
+color = c_white;
+
 invulnerability_duration = 20;
 
 dash_duration = 10; // Duração do dash em steps
