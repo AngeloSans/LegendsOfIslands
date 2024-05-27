@@ -1,0 +1,1 @@
+key_A= keyboard_check(ord("A"));

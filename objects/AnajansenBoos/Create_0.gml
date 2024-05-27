@@ -1,5 +1,3 @@
-global.lifeAna = 10;
-
 
 // Inicialize as variáveis no evento Create
 speed_ana = 0.5; // Velocidade do objeto

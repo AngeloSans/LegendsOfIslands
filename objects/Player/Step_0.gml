@@ -78,11 +78,11 @@ if (keyboard_check_pressed(ord("A"))) {
         }
     }
 
-    // Atacar Anajansen
+    // Atacar Carroagem
     if (image_xscale == 1) {
-        enemy_inst = collision_rectangle(x, y - attack_range_y / 2, x + attack_range_x, y + attack_range_y / 2, AnajansenBoos, false, true);
+        enemy_inst = collision_rectangle(x, y - attack_range_y / 2, x + attack_range_x, y + attack_range_y / 2, Carruagem, false, true);
     } else {
-        enemy_inst = collision_rectangle(x - attack_range_x, y - attack_range_y / 2, x, y + attack_range_y / 2, AnajansenBoos, false, true);
+        enemy_inst = collision_rectangle(x - attack_range_x, y - attack_range_y / 2, x, y + attack_range_y / 2, Carruagem, false, true);
     }
     if (enemy_inst) {
         global.lifeAna -= 1;

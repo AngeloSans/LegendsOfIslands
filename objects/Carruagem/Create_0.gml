@@ -1,0 +1,1 @@
+global.lifeAna = 10;
