@@ -1,0 +1,11 @@
+menu_enter=virtual_key_add(x,y,sprite_width,sprite_width,ord("x"))
+varx=(camera_get_view_x(view_camera[0]))
+vary=(camera_get_view_y(view_camera[0]))
+view_width = camera_get_view_width(view_camera[0]);
+view_heigh = camera_get_view_height(view_camera[0]);
+object_height = sprite_width *2;
+object_width = sprite_width*2; 
+desired_x_position = varx + view_width - object_width;
+desired_y_position = vary + view_heigh - object_height;
+x = desired_x_position;
+y = desired_y_position;
