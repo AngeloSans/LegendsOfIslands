@@ -1,0 +1,1 @@
+tempo_restante = 60;

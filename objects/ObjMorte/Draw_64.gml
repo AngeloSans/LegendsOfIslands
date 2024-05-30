@@ -1,4 +1,4 @@
-if (global.morte) {
+if (global.morte)  {
     valor = lerp(valor, 1, 0.04);
     
     // Certifique-se de que o valor esteja entre 0 e 1

@@ -1,10 +1,10 @@
-if(index == 2){
+if(index == 1){
 	
 	room_goto(SalaMenu);
 	
 }
 
-if(index == 1){
+if(index == 0){
 	obj_sound_manager.music = !obj_sound_manager.music
 	audio_stop_all();
 }

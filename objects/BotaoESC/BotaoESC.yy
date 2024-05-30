@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"BotaoTEste",
+  "%Name":"BotaoESC",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -9,7 +9,7 @@
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"BotaoTEste",
+  "name":"BotaoESC",
   "overriddenProperties":[],
   "parent":{
     "name":"Controls",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Component_1BotaoA",
-    "path":"sprites/Component_1BotaoA/Component_1BotaoA.yy",
+    "name":"keyboard_esc_16",
+    "path":"sprites/keyboard_esc_16/keyboard_esc_16.yy",
   },
   "spriteMaskId":null,
   "visible":true,

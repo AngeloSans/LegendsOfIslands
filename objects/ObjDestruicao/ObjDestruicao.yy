@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Ataque",
+  "%Name":"ObjDestruicao",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_invisible_wall","path":"objects/obj_invisible_wall/obj_invisible_wall.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Ataque",
+  "name":"ObjDestruicao",
   "overriddenProperties":[],
   "parent":{
-    "name":"Anajanse",
-    "path":"folders/Objetos/Anajanse.yy",
+    "name":"Serpente",
+    "path":"folders/Objetos/Serpente.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"fire",
-    "path":"sprites/fire/fire.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
