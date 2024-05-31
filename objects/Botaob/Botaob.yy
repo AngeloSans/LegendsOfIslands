@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"BotaoB",
-    "path":"sprites/BotaoB/BotaoB.yy",
+    "name":"gdb_xbox_2__1_",
+    "path":"sprites/gdb_xbox_2__1_/gdb_xbox_2__1_.yy",
   },
   "spriteMaskId":null,
   "visible":true,

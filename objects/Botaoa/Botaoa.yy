@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"BotaoA",
-    "path":"sprites/BotaoA/BotaoA.yy",
+    "name":"gdb_xbox_2",
+    "path":"sprites/gdb_xbox_2/gdb_xbox_2.yy",
   },
   "spriteMaskId":null,
   "tags":[

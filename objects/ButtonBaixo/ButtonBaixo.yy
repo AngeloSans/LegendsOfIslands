@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"ButtonControll2",
-    "path":"sprites/ButtonControll2/ButtonControll2.yy",
+    "name":"BotaoBaixo",
+    "path":"sprites/BotaoBaixo/BotaoBaixo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

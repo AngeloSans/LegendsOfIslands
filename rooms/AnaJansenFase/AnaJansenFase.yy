@@ -30,6 +30,8 @@
     {"name":"inst_5D6F13E3","path":"rooms/AnaJansenFase/AnaJansenFase.yy",},
     {"name":"inst_500AA517","path":"rooms/AnaJansenFase/AnaJansenFase.yy",},
     {"name":"inst_3D118028","path":"rooms/AnaJansenFase/AnaJansenFase.yy",},
+    {"name":"inst_662C9179","path":"rooms/AnaJansenFase/AnaJansenFase.yy",},
+    {"name":"inst_24599DF0","path":"rooms/AnaJansenFase/AnaJansenFase.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -59,6 +61,8 @@
         {"$GMRInstance":"","%Name":"inst_1F8AEB08","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1F8AEB08","objectId":{"name":"Carruagem","path":"objects/Carruagem/Carruagem.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":0.7009346,"x":256.0,"y":640.0,},
         {"$GMRInstance":"","%Name":"inst_513501D8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_513501D8","objectId":{"name":"Player","path":"objects/Player/Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":0.5,"x":128.0,"y":640.0,},
         {"$GMRInstance":"","%Name":"inst_3D118028","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3D118028","objectId":{"name":"Next","path":"objects/Next/Next.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":640.0,},
+        {"$GMRInstance":"","%Name":"inst_662C9179","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_662C9179","objectId":{"name":"PauseButton","path":"objects/PauseButton/PauseButton.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":640.0,},
+        {"$GMRInstance":"","%Name":"inst_24599DF0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_24599DF0","objectId":{"name":"A","path":"objects/A/A.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.3,"scaleY":0.3,"x":192.0,"y":608.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_2","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_18629CD0","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_18629CD0","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":179.27072,"scaleX":1.0,"scaleY":1.32,"spriteId":{"name":"output_tileset","path":"sprites/output_tileset/output_tileset.yy",},"x":160.0,"y":704.0,},

@@ -1,0 +1,1 @@
+global.serpenteMorte = false;

@@ -34,10 +34,7 @@ if (global.pause) {
     if (keyboard_check_pressed(ord("A"))) {
         // Execute a ação correspondente à opção selecionada
         if (index == 0) { // Ação para a primeira opção
-            if (file_exists("Save.sav")) file_delete("save.sav");
-            ini_open("save.sav");
-            ini_close();
-            show_message("jogo salvo com sucesso!");  // Insira a ação aqui
+            global.pause = !global.pause;
         }
         if (index == 1) { // Ação para a segunda opção
             room_goto(SalaMenu);

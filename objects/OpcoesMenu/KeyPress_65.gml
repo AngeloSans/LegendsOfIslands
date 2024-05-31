@@ -1,6 +1,6 @@
 if(index == 1){
 	
-	room_goto(SalaMenu);
+	room_goto_previous();
 	
 }
 

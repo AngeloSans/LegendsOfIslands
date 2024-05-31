@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Teste",
+  "%Name":"Object46",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Teste",
+  "name":"Object46",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controls",
-    "path":"folders/Objetos/Controls.yy",
+    "name":"Ingamer",
+    "path":"folders/Objetos/Controls/Ingamer.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"keyboard_esc_16",
-    "path":"sprites/keyboard_esc_16/keyboard_esc_16.yy",
+    "name":"gdb_xbox_2__1_",
+    "path":"sprites/gdb_xbox_2__1_/gdb_xbox_2__1_.yy",
   },
   "spriteMaskId":null,
   "visible":true,

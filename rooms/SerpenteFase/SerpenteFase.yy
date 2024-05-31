@@ -24,6 +24,8 @@
     {"name":"inst_476589AA","path":"rooms/SerpenteFase/SerpenteFase.yy",},
     {"name":"inst_4D15BF24","path":"rooms/SerpenteFase/SerpenteFase.yy",},
     {"name":"inst_152AFBA2","path":"rooms/SerpenteFase/SerpenteFase.yy",},
+    {"name":"inst_9B4BD3","path":"rooms/SerpenteFase/SerpenteFase.yy",},
+    {"name":"inst_99BFFE6","path":"rooms/SerpenteFase/SerpenteFase.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -46,6 +48,8 @@
         {"$GMRInstance":"","%Name":"inst_20D55D5D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_20D55D5D","objectId":{"name":"ObjPause","path":"objects/ObjPause/ObjPause.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":96.0,},
         {"$GMRInstance":"","%Name":"inst_476589AA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_476589AA","objectId":{"name":"SerpenteControler","path":"objects/SerpenteControler/SerpenteControler.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":32.0,},
         {"$GMRInstance":"","%Name":"inst_4D15BF24","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4D15BF24","objectId":{"name":"ObjDestruicao","path":"objects/ObjDestruicao/ObjDestruicao.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":96.0,},
+        {"$GMRInstance":"","%Name":"inst_9B4BD3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9B4BD3","objectId":{"name":"SERPENTE","path":"objects/SERPENTE/SERPENTE.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":64.0,},
+        {"$GMRInstance":"","%Name":"inst_99BFFE6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_99BFFE6","objectId":{"name":"PauseButton","path":"objects/PauseButton/PauseButton.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":-224.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_3","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_32D7BF4D","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_32D7BF4D","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":9.320001,"scaleY":1.64,"spriteId":{"name":"output_tileset","path":"sprites/output_tileset/output_tileset.yy",},"x":-128.0,"y":160.0,},

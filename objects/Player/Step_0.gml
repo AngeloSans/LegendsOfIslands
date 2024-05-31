@@ -92,6 +92,22 @@ if (keyboard_check_pressed(ord("A"))) {
 			global.destruicao = true;
         }
     }
+	
+	//Atacar serpente
+	
+	if (image_xscale == 1) {
+        enemy_inst = collision_rectangle(x, y - attack_range_y / 2, x + attack_range_x, y + attack_range_y / 2, TerrenoSepente, false, true);
+    } else {
+        enemy_inst = collision_rectangle(x - attack_range_x, y - attack_range_y / 2, x, y + attack_range_y / 2, TerrenoSepente, false, true);
+    }
+    if (enemy_inst) {
+        global.serpenteLife -= 1;
+
+        if (global.serpenteLife <= 0) {
+			global.serpenteMorte = true;
+            instance_destroy(enemy_inst);
+        }
+    }
 
 }
 var gui_w = display_get_gui_width();

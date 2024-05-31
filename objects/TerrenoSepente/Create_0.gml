@@ -1,2 +1,2 @@
-global.serpenteLife = 50;
+global.serpenteLife = 5;
 

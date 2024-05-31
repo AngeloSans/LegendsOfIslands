@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"ButtonControll2",
-    "path":"sprites/ButtonControll2/ButtonControll2.yy",
+    "name":"BotaoLeft",
+    "path":"sprites/BotaoLeft/BotaoLeft.yy",
   },
   "spriteMaskId":null,
   "visible":true,

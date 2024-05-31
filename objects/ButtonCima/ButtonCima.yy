@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"ButtonControll2",
-    "path":"sprites/ButtonControll2/ButtonControll2.yy",
+    "name":"gdb_playstation_2",
+    "path":"sprites/gdb_playstation_2/gdb_playstation_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

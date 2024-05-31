@@ -1,4 +1,4 @@
 global.pause = false;
-pause_config = ["Salvar", "Sair"];
+pause_config = ["Continuar", "Sair"];
 index = 0;
 opc_max = array_length(pause_config);
