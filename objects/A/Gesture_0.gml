@@ -1,9 +1,8 @@
-
 with(Player){
 	if (keyboard_check(vk_right) || keyboard_check(vk_left)) {
     sprite_index = Correndo;
     image_xscale = (keyboard_check(vk_right)) ? 1 : -1;
-} else if (keyboard_check(ord("A"))) {
+} else if (virtual_key_check(global.menu_A)) {
     sprite_index = Atacar;
 } else {
     sprite_index = Parado;

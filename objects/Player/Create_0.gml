@@ -6,6 +6,8 @@ global.morte = false;
 global.move_x = 0;
 global.move_y = 0;
 
+
+global.menu_A=virtual_key_add(x,y,sprite_width,sprite_width,ord("A"))
 //superpower
 // Evento Create do Player
 superpower_active = false;
