@@ -1,4 +1,4 @@
-cima=virtual_key_add(x,y,sprite_width,sprite_width,ord("p"))
+
 var varx = camera_get_view_x(view_camera[0]);
 var vary = camera_get_view_y(view_camera[0]);
 var view_width = camera_get_view_width(view_camera[0]);

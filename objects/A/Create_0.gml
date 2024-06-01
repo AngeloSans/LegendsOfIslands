@@ -1,0 +1,1 @@
+botaoa = virtual_key_add(x + sprite_width * 40, y, sprite_width * 80, sprite_height * 80, ord("A"));
