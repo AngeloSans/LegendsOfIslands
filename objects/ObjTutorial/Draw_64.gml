@@ -19,3 +19,7 @@ var x3 = gui_largura/1.6;
 var y3 = gui_altura/1.8;
 draw_text(x3, y3, "Usado para sair ou cancelar opções"); // Desenha o texto na posição (x, y) com o texto "Seu texto aqui"
 
+var x4 = gui_largura/2;
+var y4 = gui_altura/1.4;
+draw_text(x4, y4, "Pausa o Jogo!"); 
+

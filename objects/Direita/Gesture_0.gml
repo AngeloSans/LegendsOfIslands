@@ -1,0 +1,1 @@
+global.move_y += 1;
