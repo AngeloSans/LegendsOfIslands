@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"gdb_xbox_2",
-    "path":"sprites/gdb_xbox_2/gdb_xbox_2.yy",
+    "name":"Sprite84",
+    "path":"sprites/Sprite84/Sprite84.yy",
   },
   "spriteMaskId":null,
   "visible":true,
