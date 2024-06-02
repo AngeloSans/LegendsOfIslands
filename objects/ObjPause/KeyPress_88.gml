@@ -1,1 +1,1 @@
-room_goto(SalaMenu);
+global.pause = !global.pause;

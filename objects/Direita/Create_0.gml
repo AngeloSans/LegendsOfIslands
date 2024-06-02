@@ -1,1 +1,14 @@
-direita=virtual_key_add(x+sprite_width*10,y,sprite_width*5,sprite_height*5,vk_right)
+
+
+var spriteW = sprite_get_width(sprite_index);
+var spriteH = sprite_get_height(sprite_index);
+
+// Define as coordenadas e dimensões da tecla virtual
+var x_position = spriteW * 7;
+var y_position = spriteW * 8.5;
+var width = spriteW * 2;
+var height = spriteH * 2;
+
+
+// Cria a tecla virtual
+direita = virtual_key_add(x_position, y_position, width, height, vk_right);

@@ -1,4 +1,4 @@
-opcoes = ["Novo Jogo", "Creditos", "Opções", "Sair"];
+opcoes = ["Novo Jogo", "Créditos", "Opções", "Sair"];
 index = 0;
 op_max = array_length(opcoes);
 background_color = c_white;  // Inicializar a cor de fundo

@@ -4,7 +4,7 @@ var spriteW = sprite_get_width(sprite_index);
 var spriteH = sprite_get_height(sprite_index);
 
 var x_position = spriteW * 5;
-var y_position = spriteW * 7;
+var y_position = spriteW * 10;
 var width = spriteW * 2;
 var height = spriteH * 2;
 
@@ -15,4 +15,4 @@ var height = spriteH * 2;
 //var height = sprite_get_height(sprite_index) * 5;
 
 // Cria a tecla virtual
-cima = virtual_key_add(x_position, y_position, width, height, vk_space);
+baixo = virtual_key_add(x_position, y_position, width, height, vk_down);

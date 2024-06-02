@@ -1,10 +1,9 @@
-
-
 var spriteW = sprite_get_width(sprite_index);
 var spriteH = sprite_get_height(sprite_index);
 
-var x_position = spriteW * 5;
-var y_position = spriteW * 7;
+// Define as coordenadas e dimensões da tecla virtual
+var x_position = spriteW * 18;
+var y_position = spriteW * 8;
 var width = spriteW * 2;
 var height = spriteH * 2;
 
@@ -15,4 +14,4 @@ var height = spriteH * 2;
 //var height = sprite_get_height(sprite_index) * 5;
 
 // Cria a tecla virtual
-cima = virtual_key_add(x_position, y_position, width, height, vk_space);
+botaoB = virtual_key_add(x_position, y_position, width, height, ord("B"));

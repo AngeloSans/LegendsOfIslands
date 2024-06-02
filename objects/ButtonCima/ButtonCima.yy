@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"gdb_playstation_2",
-    "path":"sprites/gdb_playstation_2/gdb_playstation_2.yy",
+    "name":"BotaoCima",
+    "path":"sprites/BotaoCima/BotaoCima.yy",
   },
   "spriteMaskId":null,
   "visible":true,
