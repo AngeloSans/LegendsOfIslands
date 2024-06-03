@@ -32,6 +32,6 @@ if (global.inimigos_restantes <= 0) {
     draw_text(x_1, y_2 + 20, text2);
     
     if (keyboard_check(ord("A"))) {
-        room_goto(AnaJansenFase);
+        room_goto(SalaAna);
     }
 }

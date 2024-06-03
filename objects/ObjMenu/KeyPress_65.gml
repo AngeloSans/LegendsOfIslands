@@ -8,6 +8,9 @@ if(index == 2){
 if(index == 0){
 	room_goto(SalaTutorial);	
 }
+if(index == 1){
+	room_goto(SalaCreditos);	
+}
 	
 
 if keyboard_check_pressed(vk_anykey) {

@@ -1,1 +1,1 @@
-room_goto(AnajansenHistory)
+room_goto(AnaJansenFaseOne)

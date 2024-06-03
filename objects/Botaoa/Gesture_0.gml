@@ -34,3 +34,13 @@ with(ObjTutorial){
 with(ObjIntroducao){
 	room_goto(AnaJansenFaseOne);
 }
+with(SERPENTE){
+	room_goto(SerpenteFase);
+}
+with(BestiarioAnaNext){
+	room_goto(AnaJansenFase);
+}
+
+with(ObjFinalFase){
+	room_goto(SerpenteFase);
+}

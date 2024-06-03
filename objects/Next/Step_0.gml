@@ -1,4 +1,4 @@
 
 if(global.lifeAna < 1){
-	room_goto(SerpenteFase);
+	room_goto(SalaSerpente);
 }

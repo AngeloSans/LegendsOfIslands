@@ -37,8 +37,8 @@
   ],
   "name":"SalaIntroducao",
   "parent":{
-    "name":"Cenas",
-    "path":"folders/Cenas.yy",
+    "name":"Anciao",
+    "path":"folders/Cenas/Anciao.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
