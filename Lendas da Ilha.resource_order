@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings":[
-    {"name":"BestiariosSala","order":12,"path":"folders/Cenas/BestiariosSala.yy",},
     {"name":"Anciao","order":13,"path":"folders/Cenas/Anciao.yy",},
+    {"name":"BestiariosSala","order":12,"path":"folders/Cenas/BestiariosSala.yy",},
     {"name":"Anajanse","order":33,"path":"folders/Objetos/Anajanse.yy",},
     {"name":"BestiarioBotoes","order":38,"path":"folders/Objetos/BestiarioBotoes.yy",},
     {"name":"Controls","order":35,"path":"folders/Objetos/Controls.yy",},
