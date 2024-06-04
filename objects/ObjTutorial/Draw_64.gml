@@ -13,7 +13,7 @@ draw_text(x1, y1, "Move o personagem principal"); // Desenha o texto na posiçã
 
 var x2 = gui_largura/1.55;
 var y2 = gui_altura/2.4;
-draw_text(x2, y2, "Usado para comfirmar escolhas e atacar"); // Desenha o texto na posição (x, y) com o texto "Seu texto aqui"
+draw_text(x2, y2, "Usado para confirmar escolhas e atacar"); // Desenha o texto na posição (x, y) com o texto "Seu texto aqui"
 
 var x3 = gui_largura/1.6;
 var y3 = gui_altura/1.8;

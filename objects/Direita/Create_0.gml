@@ -4,7 +4,7 @@ var spriteW = sprite_get_width(sprite_index);
 var spriteH = sprite_get_height(sprite_index);
 
 // Define as coordenadas e dimensões da tecla virtual
-var x_position = spriteW * 7;
+var x_position = spriteW * 6.3;
 var y_position = spriteW * 8.5;
 var width = spriteW * 2;
 var height = spriteH * 2;

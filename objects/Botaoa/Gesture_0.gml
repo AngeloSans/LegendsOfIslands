@@ -5,7 +5,7 @@
         } else if (index == 2) {
             room_goto(SalaOpcoes);
         } else if (index == 1) {
-            // Adicione a lógica da SalaOpcoes1 se necessário
+            room_goto(SalaCreditos);
         } else if (index == 0) {
             room_goto(SalaTutorial);
         }

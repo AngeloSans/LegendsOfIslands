@@ -1,5 +1,5 @@
 // Define as coordenadas e dimensões do botão virtual
-var x_position = sprite_get_width(sprite_index) * 3.2;
+var x_position = sprite_get_width(sprite_index) * 3.5;
 var y_position = sprite_get_width(sprite_index) *8.5;
 var width = sprite_get_width(sprite_index) * 2;
 var height = sprite_get_height(sprite_index) * 2;
