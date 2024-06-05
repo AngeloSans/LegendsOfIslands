@@ -1,5 +1,5 @@
 if(global.vida = 5){
-	draw_sprite(Sprite54,0, 60, 50)
+	draw_sprite(Sprite54 ,0, 60, 50)
 }
 if(global.vida = 4){
 	draw_sprite(Sprite54,1, 60, 50)

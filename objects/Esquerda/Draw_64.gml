@@ -1,8 +1,8 @@
 // Define as coordenadas e dimensões do botão virtual
-var x_position = sprite_get_width(sprite_index) * 3.5;
-var y_position = sprite_get_width(sprite_index) *8.5;
-var width = sprite_get_width(sprite_index) * 2;
-var height = sprite_get_height(sprite_index) * 2;
+var x_position = sprite_get_width(sprite_index) * 3;
+var y_position = sprite_get_width(sprite_index) *7;
+var width = sprite_get_width(sprite_index) * 3;
+var height = sprite_get_height(sprite_index) * 3;
 
 // Desenhe o sprite esticado na posição do botão virtual
 draw_sprite_stretched(BotaoLeft, 0, x_position, y_position, width, height);
